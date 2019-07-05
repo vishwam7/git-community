@@ -40,7 +40,7 @@ const Layout = ({ children, data }) => (
           </div>
       </div>
     </div>
-    <Footer author={data.site.siteMetadata.author} profile={data.site.siteMetadata.author} />
+    <Footer/>
   </div>
 )
 
