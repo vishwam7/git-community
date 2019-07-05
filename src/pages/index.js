@@ -21,7 +21,7 @@ const IndexPage = () => (
     <p>
       Clone the forked repository to your local machine. Click on the big green button saying "Clone or download" and copy the https url of your repository.
       Open the terminal on Linux or Mac or the Git Bash on Windows. Now navigate to your desired directory and type the following command. Replace the link with the URL of your repository and hit Enter.
-      <Code code="git clone https://github.com/YOUR_USERNAME/git-workshop-vit.git"/>
+      <Code code="git clone https://github.com/YOUR_USERNAME/git-community"/>
     </p>
     <h3>OR</h3>
     <h3>Step 2.2</h3>
