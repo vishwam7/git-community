@@ -19,10 +19,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "@testing-library/react": "^8.0.4",
+    "jest-dom": "^3.5.0",
     "prettier": "^1.13.7"
   },
   "repository": {
