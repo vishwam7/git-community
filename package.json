@@ -19,18 +19,11 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "jest",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "@testing-library/react": "^8.0.4",
-    "babel-jest": "^24.8.0",
     "babel-preset-gatsby": "^0.2.1",
-    "jest": "^24.8.0",
-    "jest-dom": "^3.5.0",
-    "jest-emotion": "^10.0.14",
     "prettier": "^1.18.2",
-    "react-testing-library": "^8.0.1"
   },
   "repository": {
     "type": "git",
