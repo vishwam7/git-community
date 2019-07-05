@@ -3,8 +3,7 @@ import Link from 'gatsby-link'
 
 const Footer = ({ author, profile }) => (
     <footer>
-        Made with <i className="em em-heart" style={{width: '15px', height: '15px'}}></i> by
-        <Link to={profile}>{' '+author}</Link>
+        Made with <i className="em em-heart" style={{width: '15px', height: '15px'}}></i> for Community
     </footer>
 )
 
